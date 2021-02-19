@@ -1,0 +1,80 @@
+nav.nav-edit {
+    padding: 1em 3em;
+    margin-top: 20px;
+    /* background: url(img/bg01.png); */
+    color: #364050;
+}
+
+nav.nav-edit span {
+    font-size: 1.7em;
+    font-weight: 400;
+    text-shadow: 0.5px 0.3px gray;
+}
+
+hr.line {
+    color: #364050;
+    margin-top: unset;
+    margin-bottom: unset;
+    border: unset;
+    border-top: 2px solid rgba(0, 0, 0, .3);
+}
+
+div.form-box {
+    position: relative;
+    padding: 1em 1.5em;
+    /* background-color: teal; */
+    border-radius: 10px;
+    background: url(img/bg02.png);
+}
+
+div.box {
+    margin-top: 12vh;
+}
+
+div.box-title {
+    /* position: absolute; */
+    text-align: center;
+    background: url(img/bg01.png);
+    background-color: #364050;
+    margin-top: -1em;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.85);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+
+h2.box-text {
+    padding: 10px 25px;
+}
+
+a.btn-edit {
+    /* width: 20vh; */
+    background: #243857 url(img/bg01.png);
+    padding: 0.5em 1.8em;
+    color: rgba(255, 255, 255, 0.85);
+    border-radius: 30px;
+    border-color: #243857;
+}
+
+a.btn-edit:hover,
+a.btn-edit:active {
+    background: #1b3f74 url(img/bg01.png);
+    padding: 0.5em 1.8em;
+    color: rgba(255, 255, 255, 0.85);
+    border-radius: 30px;
+    border-color: #243857;
+}
+
+input.form-control {
+    background-color: transparent;
+}
+
+input.input-control {
+    padding: 0 1.5em;
+    margin: 2.5em 0;
+}
+
+
+/* #364050 */

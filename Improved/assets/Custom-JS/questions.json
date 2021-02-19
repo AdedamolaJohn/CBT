@@ -1,0 +1,348 @@
+[{
+        "id": "1",
+        "question": "What is the file extension of JSON?",
+        "options": {
+            "A": "jn",
+            "B": "js",
+            "C": "jsn",
+            "D": "json"
+        },
+        "answer": "D"
+    },
+
+    {
+        "id": "2",
+        "question": "Which of the following is not a JSON type?",
+        "options": {
+            "A": "Object",
+            "B": "Date",
+            "C": "Array",
+            "D": "String"
+        },
+        "answer": "B"
+    },
+
+    {
+        "id": "3",
+        "question": " Can you use a double quote inside a JSON string?",
+        "options": {
+            "A": "Yes, if you use the ascii code.",
+            "B": "Yes, you can use it without any special treatment",
+            "C": "Yes, if it is escaped like ( \\' )",
+            "D": "No, you should use single quotes"
+        },
+        "answer": "C"
+    },
+
+    {
+        "id": "4",
+        "question": "What is the MIME type of JSON?",
+        "options": {
+            "A": "application/x-json",
+            "B": "text/json",
+            "C": "application/json",
+            "D": "application/javascript"
+        },
+        "answer": "C"
+    },
+
+    {
+        "id": "5",
+        "question": " Which of these is supported as a JSON Value type?",
+        "options": {
+            "A": "Infiniti",
+            "B": "Undefined",
+            "C": "Null",
+            "D": "NaN"
+        },
+        "answer": "B"
+    },
+
+    {
+        "id": "6",
+        "question": "When coding a string object in JSON, what must separate the string and the value?",
+        "options": {
+            "A": "A space",
+            "B": "A semicolon",
+            "C": "A comma",
+            "D": "A colon"
+        },
+        "answer": "D"
+    },
+
+    {
+        "id": "7",
+        "question": "Which of these data interchange formats has seen a decline in usage in favor of JSON?",
+        "options": {
+            "A": "ASCII",
+            "B": "Plain-text",
+            "C": "SQL",
+            "D": "XML"
+        },
+        "answer": "D"
+    },
+
+    {
+        "id": "8",
+        "question": " What keywords are reserved in JSON and cannot be used as keys?",
+        "options": {
+            "A": "Value",
+            "B": "Object",
+            "C": "There are none",
+            "D": "Key"
+        },
+        "answer": "C"
+    },
+
+    {
+        "id": "9",
+        "question": "JSON elements are separated by",
+        "options": {
+            "A": "semi-colon",
+            "B": "line break",
+            "C": "comma",
+            "D": "white space"
+        },
+        "answer": "C"
+    },
+
+    {
+        "id": "10",
+        "question": " In the below notation, Employee is of type { “Employee”: { “Name”: “Amy”, “Age”: 25 } }",
+        "options": {
+            "A": "Object",
+            "B": "Array",
+            "C": "Class",
+            "D": "Not a valid JSON string"
+        },
+        "answer": "A"
+    },
+
+    {
+        "id": "11",
+        "question": "JSON strings have to be in",
+        "options": {
+            "A": "Single quote",
+            "B": "Double quote",
+            "C": "Single and Double quote",
+            "D": "none"
+        },
+        "answer": "B"
+    },
+
+    {
+        "id": "12",
+        "question": "JSON name/value pair is written as",
+        "options": {
+            "A": "name’ : ‘value’",
+            "B": "name = ‘value’",
+            "C": "name = “value”",
+            "D": "“name” : “value”"
+        },
+        "answer": "D"
+    },
+
+    {
+        "id": "13",
+        "question": "Which of the following code will not throw an error?",
+        "options": {
+            "A": "JSON.parse(”);",
+            "B": "JSON.parse(null);",
+            "C": "JSON.parse();",
+            "D": "JSON.parse({});"
+        },
+        "answer": "B"
+    },
+
+    {
+        "id": "14",
+        "question": "How do JSON provide Internationalization?",
+        "options": {
+            "A": "Using Unicode",
+            "B": "Using Keys",
+            "C": "Using Datatype",
+            "D": "Using lang"
+        },
+        "answer": "A"
+    },
+
+    {
+        "id": "15",
+        "question": " JSONP stands for -",
+        "options": {
+            "A": "JSON Parsing",
+            "B": "JSON Procedures",
+            "C": "JSON Programming",
+            "D": "JSON with Padding"
+        },
+        "answer": "A"
+    },
+
+    {
+        "id": "16",
+        "question": " JSON stands for ________________",
+        "options": {
+            "A": "Java Standard Output Network",
+            "B": "JavaScript Object Notation",
+            "C": "JavaScript Output Network",
+            "D": "Java Source Open Network"
+        },
+        "answer": "B"
+    },
+
+    {
+        "id": "17",
+        "question": "Who is the Father of JSON ?",
+        "options": {
+            "A": "Douglas Cockford",
+            "B": "Rasmus Lerdorf",
+            "C": "Douglas Michel",
+            "D": "Dennis Ritchue"
+        },
+        "answer": "A"
+    },
+
+    {
+        "id": "18",
+        "question": "What is the common usage of Json on modern websites?",
+        "options": {
+            "A": "To send and receive bits of data",
+            "B": " To store information remotely",
+            "C": " To store information locally",
+            "D": "All of the Above"
+        },
+        "answer": "A"
+    },
+
+    {
+        "id": "19",
+        "question": "What is the return type of the method parseInt()?",
+        "options": {
+            "A": "String",
+            "B": "Float",
+            "C": "Integer",
+            "D": "Date"
+        },
+        "answer": "C"
+    },
+
+    {
+        "id": "20",
+        "question": "What are the parameters of the method JSON.parse()?",
+        "options": {
+            "A": "text",
+            "B": "reviver",
+            "C": "text and reviver",
+            "D": "object"
+        },
+        "answer": "C"
+    },
+
+    {
+        "id": "21",
+        "question": " Which of the following is a JavaScript Compressor?",
+        "options": {
+            "A": "Esprima",
+            "B": "UgllifyJS",
+            "C": "Acron",
+            "D": "Compresssify"
+        },
+        "answer": "B"
+    },
+
+    {
+        "id": "23",
+        "question": " Which of the following is the fastest JavaScript parser?",
+        "options": {
+            "A": "JSLint",
+            "B": "Esprima",
+            "C": "Acron",
+            "D": "Traceur"
+        },
+        "answer": "C"
+    },
+
+    {
+        "id": "24",
+        "question": "What will be the radix value of the parseInt() method when the string begins with 0",
+        "options": {
+            "A": "6",
+            "B": "7",
+            "C": "8",
+            "D": "9"
+        },
+        "answer": "C"
+    },
+
+    {
+        "id": "25",
+        "question": "What is the purpose of the radix parameter in the parseInt() method?",
+        "options": {
+            "A": "Numeral system not to be used",
+            "B": "Numeral system to be used",
+            "C": " Conversion mode",
+            "D": " Parsing mode"
+        },
+        "answer": "B"
+    },
+
+    {
+        "id": "26",
+        "question": "What will be the radix value of the parseInt() method when the string begins with any other value other than 0x and 0?",
+        "options": {
+            "A": "8",
+            "B": "9",
+            "C": "10",
+            "D": "11"
+        },
+        "answer": "C"
+    },
+
+    {
+        "id": "27",
+        "question": " Which of the following code will return a valid JSON object?",
+        "options": {
+            "A": "JSON.parse(‘({“FirstName”: “John”, “LastName”:”Doe”})’);",
+            "B": "JSON.parse(‘{“FirstName”: “John”, “LastName”:”Doe”}’);",
+            "C": "JSON.parse(“({‘FirstName’: ‘John’, ‘LastName’:’Doe’})”);",
+            "D": "JSON.parse(“{‘FirstName’: ‘John’, ‘LastName’:’Doe’}”);"
+        },
+        "answer": "D"
+    },
+
+    {
+        "id": "28",
+        "question": "Which of the following is a valid JSON string?",
+        "options": {
+            "A": " { “meals” : { “breakfast” , “lunch” , “dinner” } }",
+            "B": "[ {“meals” : { “breakfast” , “lunch” , “dinner” } } ]",
+            "C": " { “meals” : [ “breakfast” , “lunch” , “dinner” ] }",
+            "D": "[ “meals” : { “breakfast” , “lunch” , “dinner” } ]"
+        },
+        "answer": "B"
+    },
+
+    {
+        "id": "29",
+        "question": "Which statement about the reviver parameter in JSON.parse() is true?",
+        "options": {
+            "A": " All three statements are true",
+            "B": "Used to reform generic objects into instances of pseudo-classes",
+            "C": " A function that will be called for every key and value at every level of the final result",
+            "D": "Each value will be replaced by the result of the reviver function"
+        },
+        "answer": "A"
+    },
+
+    {
+        "id": "30",
+        "question": "What function will convert a JavaScript object to a JSON string?",
+        "options": {
+            "A": "JSON.text()",
+            "B": "JSON.seralize()",
+            "C": "JSON.toString()",
+            "D": "JSON.tringify()"
+        },
+        "answer": "D"
+    }
+]
