@@ -1,12 +1,25 @@
-{
-  "mat_no": "BSP/ND/17/0909",
-  "surname": "adenifuja"
-}
+[{
+        "mat_no": "BSP/ND/17/0909",
+        "surname": "adenifuja"
+    },
 
-{
-  0: {
-     "question": "What is a question?",
-      "choices": {"A": "Answer 1", "B": "Answer 2"}
-      "answer": "A"
-   }
-}
+    {
+        "mat_no": "BSP/ND/17/091",
+        "surname": "adewole"
+    },
+
+    {
+        "mat_no": "BSP/ND/17/0999",
+        "surname": "adejade"
+    },
+
+    {
+        "mat_no": "BSP/ND/17/01989",
+        "surname": "adekanmi"
+    },
+
+    {
+        "mat_no": "BSP/ND/17/0167",
+        "surname": "ayangalu"
+    }
+]

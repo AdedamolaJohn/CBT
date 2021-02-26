@@ -1,0 +1,45 @@
+body div.container-fluid {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)), url(../../img/exam.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+}
+
+div a {
+    color: white;
+}
+
+div a:hover {
+    color: #0a3f8d;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+a.button-link {
+    text-decoration: none;
+    display: block;
+}
+
+a.button-link:hover {
+    color: white;
+}
+
+nav {
+    background-color: transparent;
+    color: white;
+    padding: 10px 50px;
+}
+
+div.va {
+    margin-top: 25vh;
+}
+
+button.btn-color {
+    background-color: #0d4599;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 40px;
+    margin-top: 10px;
+}

@@ -18,16 +18,16 @@
     <div class="d-flex" id="wrapper">
 
         <!-- Sidebar -->
-        <div class="bg-light border-right" id="sidebar-wrapper">
+        <div class="bg-light border-right border-right-0" id="sidebar-wrapper">
             <div class="sidebar-heading details text-center mx-4 my-3">
                 <img src="img/author_image.png" class="img-responsive rounded-circle shadow" height="80px" width="80px">
                 <h5 class="name">Adenifuja A. K.</h5>
-                <p class="department">Fishery and Aquaculture Technology</p>
+                <!-- <p class="department">Fishery and Aquaculture Technology</p> -->
                 <h5 class="matNo" id="matNoDisplay">BSP/ND/17/3091</h5>
             </div>
             <div class="list-group list-group-flush">
-                <a href="#" class="list-group-item list-group-item-action bg-light" disable>SECTIONS</a>
-                <a href="#" class="list-group-item list-group-item-action bg-light">Section A</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light font-weight-bold disabled">SECTIONS</a>
+                <a href="#" class="list-group-item list-group-item-action bg-light text-muted">Section A</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">Section B</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">Section C</a>
                 <a href="#" class="list-group-item list-group-item-action bg-light">Section D</a>
@@ -39,7 +39,7 @@
         <!-- Page Content -->
         <div id="page-content-wrapper">
 
-            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom-0">
                 <button class="btn btn-primary mr-5 py-2 px-1 toggle-btn" id="menu-toggle" hidden> Menu</button>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -94,28 +94,49 @@
 
                 <div class="container mt-sm-5 my-1 mx-auto">
                     <div class="question ml-sm-2 pl-sm-5 pt-2">
-                        <div class="py-2 h4"><b>Q. Which option best describes your job role?</b></div>
+                        <div class="py-2 h4" id="question"><b>Q. Which option best describes your job role?</b></div>
                         <div class="ml-md-3 ml-sm-3 pl-md-2 pt-sm-0 pt-3" id="options">
 
-                            <label class="options">Small Business Owner or Employee 
+
+                            <div class="choice-container">
+                                <p class="choice-prefix">A</p>
+                                <p class="choice-text" data-number="1">Choice 1</p>
+                            </div>
+
+                            <div class="choice-container">
+                                <p class="choice-prefix">B</p>
+                                <p class="choice-text" data-number="2">Choice 2</p>
+                            </div>
+
+                            <div class="choice-container">
+                                <p class="choice-prefix">C</p>
+                                <p class="choice-text" data-number="3">Choice 3</p>
+                            </div>
+
+                            <div class="choice-container">
+                                <p class="choice-prefix">D</p>
+                                <p class="choice-text" data-number="4">Choice 4</p>
+                            </div>
+
+                            <!-- <label class="options" id="optionA">Small Business Owner or Employee 
                             <input type="radio" name="radio"> 
                                 <span class="checkmark"></span> 
                         </label>
 
-                            <label class="options">Nonprofit Owner or Employee 
+                            <label class="options" id="optionB">Nonprofit Owner or Employee 
                             <input type="radio" name="radio"> 
                             <span class="checkmark"></span> 
                         </label>
 
-                            <label class="options">Journalist or Activist 
+                            <label class="options" id="optionC">Journalist or Activist 
                             <input type="radio" name="radio"> 
                             <span class="checkmark"></span> 
                         </label>
 
-                            <label class="options">Other 
+                            <label class="options" id="optionD">Other 
                             <input type="radio" name="radio"> 
                             <span class="checkmark"></span> 
-                        </label>
+                        </label> -->
                         </div>
 
                     </div>
@@ -125,18 +146,18 @@
                 <!--Question field ends-->
 
                 <!--Next Button-->
-
+                <!-- 
                 <div class="ml-auto mr-sm-5">
                     <button class="btn dirBtn">Previous</button>
-                    <button class="btn dirBtn">Next</button>
-                </div>
+                    <button class="btn dirBtn" id="nxtBtn">Next</button>
+                </div> -->
+            </div>
 
 
 
-
-
-
-
+            <div class="ml-auto mr-sm-5 text-muted fixed-bottom">
+                <button class="btn dirBtn">Previous</button>
+                <button class="btn dirBtn" id="nxtBtn">Next</button>
             </div>
 
 
@@ -150,13 +171,14 @@
 
 
     <!-- Menu Toggle Script -->
-    <script>
+    <!-- <script>
         $("#menu-toggle").click(function(e) {
             e.preventDefault();
             $("#wrapper").toggleClass("toggled");
         });
-    </script>
-    <script src="assets/Custom-JS/script.js" type="text/javascript"></script>
+    </script> -->
+
+    <script src="assets/Custom-JS/newScript.js" type="text/javascript"></script>
     <script src="assets/jquery/jquery-3.2.1.js" type="text/javascript"></script>
     <script src="assets/bootstrap-4.4.1-dist/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="assets/fontawesome-free-5.10.2-web/js/fontawesome.min.js" type="text/javascript"></script>

@@ -1,5 +1,5 @@
 div.details {
-    background: #243857 url(img/bg02.png);
+    background: #243857 url(../../img/bg02.png);
     border-radius: 5px;
     padding: 0.9em 0.2em;
     color: rgba(255, 255, 255, 0.85);
@@ -47,7 +47,7 @@ div#course-details div.first-half div.progress {
 }
 
 div.bg-edit {
-    background: #364050 url("img/bg01.png");
+    background: #364050 url("../../img/bg01.png");
 }
 
 div#course-details div.second-half {
@@ -72,14 +72,14 @@ button.submitBtn {
     border: 1.5px solid #243857;
     border-radius: 7px;
     color: white;
-    background: #243857 url("img/bg01.jpg");
+    background: #243857 url("../../img/bg01.jpg");
 }
 
 button.submitBtn:hover {
     color: white;
     border-radius: 7px;
     border: 1.5px solid white;
-    background: #243857 url("img/bg01.jpg")!important;
+    background: #243857 url("../../img/bg01.jpg")!important;
 }
 
 
@@ -94,12 +94,39 @@ button.dirBtn {
     color: white;
     border-radius: 5px;
     float: right;
+    margin: 1em 0.5em;
 }
 
 button.dirBtn:hover {
     background-color: #2f4366;
     border: 1.5px solid #fff;
     color: white;
+}
+
+div.choice-container {
+    width: 100%;
+    padding: 0.5em 0.3em;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+
+div.choice-container p.choice-prefix {
+    background-color: #0e3570;
+    color: #ddd;
+    padding: 0.5em;
+}
+
+div.choice-container p.choice-text {
+    background-color: rgb(223, 223, 231);
+    width: 50%;
+    padding: 0.5em;
+    display: block;
+    cursor: grab;
+}
+
+div.choice-container p.choice-text:hover {
+    background-color: rgb(218, 218, 218);
 }
 
 
@@ -133,7 +160,7 @@ button.dirBtn:hover {
 
 .options {
     position: relative;
-    padding-left: 40px
+    /* padding-left: 40px */
 }
 
 #options label {

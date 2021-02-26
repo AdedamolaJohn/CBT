@@ -24,7 +24,7 @@ div.form-box {
     padding: 1em 1.5em;
     /* background-color: teal; */
     border-radius: 10px;
-    background: url(img/bg02.png);
+    background: url(../../img/bg02.png);
 }
 
 div.box {
@@ -34,7 +34,7 @@ div.box {
 div.box-title {
     /* position: absolute; */
     text-align: center;
-    background: url(img/bg01.png);
+    background: url(../../img/bg01.png);
     background-color: #364050;
     margin-top: -1em;
     margin-bottom: 20px;
@@ -51,7 +51,7 @@ h2.box-text {
 
 a.btn-edit {
     /* width: 20vh; */
-    background: #243857 url(img/bg01.png);
+    background: #243857 url(../../img/bg01.png);
     padding: 0.5em 1.8em;
     color: rgba(255, 255, 255, 0.85);
     border-radius: 30px;
@@ -60,7 +60,15 @@ a.btn-edit {
 
 a.btn-edit:hover,
 a.btn-edit:active {
-    background: #1b3f74 url(img/bg01.png);
+    background: #1b3f74 url(../../img/bg01.png);
+    padding: 0.5em 1.8em;
+    color: rgba(255, 255, 255, 0.85);
+    border-radius: 30px;
+    border-color: #243857;
+}
+
+a.btn-edit:active {
+    background: #1b3f74 url(../../img/bg01.png);
     padding: 0.5em 1.8em;
     color: rgba(255, 255, 255, 0.85);
     border-radius: 30px;
